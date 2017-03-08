@@ -1,0 +1,98 @@
+body{
+font-family:"GothamBook","Helvetica", "Arial", sans-serif;
+color: #000;
+}
+
+header{
+font-size: 16px;
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url('../image/hero1.jpg');
+background-position:right;
+background-size: cover;
+height: 100vh;
+width:100vw;
+width: 100%;
+}
+.second-head{
+  padding: 36px;
+  background: linear-gradient(to top, transparent, rgba(0,0,0,0.4));
+
+}
+.menu{
+color: #ffffff;
+text-transform: uppercase;
+float: right;
+}
+.logo{
+float: left;
+}
+  .menu li{
+  display: inline-block;
+  margin-left: 24px;
+  }
+a{
+color: white;
+}
+  a:hover{
+  text-decoration: none;
+  }
+.text{
+color: #fff;
+margin-top: 300px;
+max-width: 900px;
+line-height: 30px;
+}
+ .text h1{
+   font-size: 81px;
+   font-weight: 600;
+ }
+ .text h2{
+  font-size: 30px;
+  margin: 24px 0;
+  max-width: 700px;
+  font-weight: 100;
+ }
+.video{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url('../image/video.jpg');
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  background-position:center;
+  width: 100%;
+}
+.se{
+margin-right: 0px;
+}
+.left-net{
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url('../image/hero-yellow.jpg');
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position: center;
+}
+.right-net{
+  margin-top: 280px;
+  margin-left: 90px;
+}
+  .right-net h3{
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 800;
+  }
+  .right-net p{
+  max-width: 503px;
+  font-size: 18px;
+  line-height: 30px;
+  }
+.explore{
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url('../image/explore.jpg');
+background-size: cover;
+height: 100vh;
+width: 100%;
+}
+.text-explore h1{
+font-size: 108px;
+color: #fff;
+text-align: center;
+font-weight: 700;
+margin-top: 240px;
+}

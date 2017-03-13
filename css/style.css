@@ -15,8 +15,8 @@ width: 100%;
 .second-head{
   padding: 36px;
   background: linear-gradient(to top, transparent, rgba(0,0,0,0.4));
-
 }
+
 .menu{
 color: #ffffff;
 text-transform: uppercase;
@@ -31,8 +31,15 @@ float: left;
   }
 a{
 color: white;
+font-weight: 200;
 }
   a:hover{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.4s;
+  }
+  a:active,:visited{
+  color: white;
   text-decoration: none;
   }
 .text{
@@ -96,3 +103,69 @@ text-align: center;
 font-weight: 700;
 margin-top: 240px;
 }
+.terry{
+background-image: linear-gradient(to top, transparent, rgba(0,0,0,0.4)),url('../image/terry.jpg');
+background-size: cover;
+height: 50vw;
+width: 100%;
+background-position: center;
+}
+.terry-small{
+margin-left: 50px;
+
+}
+.terry-small h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 88px;
+  margin-bottom: 100px;
+
+}
+.terry-left_phone{
+  width: 200px;
+  height: 318px;
+  background-image: url('../image/netflix-piccoli.png');
+  background-size: cover;
+  background-position: 40% 0;
+  margin-left: 50px;
+}
+.te{
+margin: 0;
+}
+.work{
+background-image: url('../image/work.jpg');
+}
+.work_text h1{
+text-align: left;
+margin-top: 500px;
+float: left;
+}
+  .work_text h2{
+    color: white;
+    text-align: left;
+    float: left;
+    font-weight: 200;
+    max-width: 720px;
+  }
+.horse{
+background-image: url('../image/horse.jpg');
+height: 70vh;
+}
+.sf{
+padding: 0;
+}
+.tap{
+  background-image: url('../image/tap.jpg');
+  height: 70vh;
+}
+.block{
+background-color: black;
+height: 250px;
+width: 100%;
+}
+  .block h1{
+  color: white;
+  text-align: left;
+  font-size: 88px;
+  font-weight: 800;
+  }
